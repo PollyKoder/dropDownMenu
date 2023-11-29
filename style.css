@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+}
+
+
+
+@media (max-width: 426px) {
+    .navbarShow {
+        display: flex;
+    }
+}
