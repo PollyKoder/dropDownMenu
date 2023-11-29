@@ -4,6 +4,11 @@
     font-weight: normal;
 }
 
+.divContainer {
+    display: flex;
+    
+}
+
 
 
 @media (max-width: 426px) {
