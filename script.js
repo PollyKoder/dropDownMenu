@@ -1,5 +1,5 @@
 //Hent knappen og ul
-let listMenu = document.querySelector("#menuUl");
+let listMenu = document.querySelector(".ulMenu");
 const burgerMenu = document.querySelector(".burgerMenu");
 
 //hent navbar i knapp function? 
