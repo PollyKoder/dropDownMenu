@@ -1,6 +1,6 @@
 //Hent knappen og ul
-const listMenu = document.querySelector("#menuUl");
-const burgerMenu = document.querySelector("#menuBurger");
+let listMenu = document.querySelector("#menuUl");
+const burgerMenu = document.querySelector(".burgerMenu");
 
 //hent navbar i knapp function? 
 //Tips tenk classList.toggle og classList.add/remove, mellom navbarHidden og navbarShow.

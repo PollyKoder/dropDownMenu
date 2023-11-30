@@ -58,10 +58,13 @@ body {
         justify-content: center;
         cursor: pointer;
     }
-
+    
+    /*Hamburger meny som kun blir synlig for mobil skjerm*/
     .navbarHidden {
+        /* position: fixed; */
         margin-top: 20px;
-        margin-left: 20%;
+        margin-left: auto;
+        margin-right: auto;;
         display: flex;
         flex-direction: column;
         justify-content: center;
