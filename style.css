@@ -6,7 +6,7 @@
 
 body {
     height: 100vh;
-    background-image: linear-gradient( red, orange, yellow, green, blue, indigo, purple);
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple);
     background-repeat: no-repeat; 
 }
 
