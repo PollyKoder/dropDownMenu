@@ -1,7 +1,7 @@
 * {
     margin: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
     background-repeat: no-repeat; 
 }
 
-.divContainer .navbarShow {
+.navbarShow {
     display: flex;   
     padding: 2em;
 }
