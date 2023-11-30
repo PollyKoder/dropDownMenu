@@ -5,19 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
     <script src="script.js" defer></script>
-    <title>Document</title>
+    <title>Reaktiv Navbar</title>
 </head>
 <body>
     <div class="divContainer">
         <header>
-            <nav id="nav" class="navbarHidden ">
-                <ul id="menuUl">
+            <button class="burgerMenu" id="menuBurger" >≡</button>
+            <nav id="nav" class="navbar">
+                <ul id="menuUl" class="ulMenu navbarShow">
+                    <!-- hjem = portfolio? -->
                     <a href=""> <li>Hjem</li> </a>
+                    <!-- fakta = Good Place_rw eller Japan parallax?-->
                     <a href=""> <li>Fakta</li> </a>
+                    <!-- github hovedside link?-->
                     <a href=""> <li>Kilde</li> </a>
                 </ul>
-                <!--Legg ved meny emoji?-->
-                <button class="burgerMenu" id="menuBurger">Menu</button>
             </nav>
         </header>
     </div>
